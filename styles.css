@@ -1,0 +1,101 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: "Be Vietnam Pro";
+   border: 0;
+   outline: 0;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+body{
+   background-image: url('../img/bg-image.svg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: #FFFFFF;
+   
+}
+
+.container{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px 20px 60px;;
+}
+.body-header{
+   width: 640px;
+   text-align: center;
+   margin-bottom: 70px;
+}
+.body-header .logo{
+   position: absolute;
+   left: 180px;
+}
+.body-header .body-title{
+   margin: 70px 0 20px;
+   font-size: 4rem;
+}
+.body-header p{
+   font-size: 2rem;
+}
+.form-contact{
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   width: 800px;
+   height: 577px;
+   padding: 30px;
+   gap: 15px;
+   background-color: #cdd5e047;
+   border-radius: 15px;
+}
+
+.form-contact label{
+   display: flex;
+   flex-direction: column;
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+
+.form-contact .form-element{
+   width: 362px;
+   height: 70px;
+   padding: 15px;
+   margin-top: 3px;
+   font-size: 1rem;
+   font-weight: 700;
+   border-radius: 13px;
+   background-color: #F8FAFC;
+}
+.form-element.select{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: #111729;
+}
+.form-element.name::placeholder,
+.form-element.email::placeholder{
+   color: #CDD5E0;
+   text-align: left;
+}
+.form-contact .message{
+   width: 100%;
+}
+.form-element.message{
+   height: 165px;
+   resize: none;
+}
+.form-element.message::placeholder{
+   color: #111729;
+}
+.form-contact .btn-contact{
+   width: 100%;
+   color: #4036A9;
+   font-size: 1.25rem;
+   /* height: 65px; */
+}

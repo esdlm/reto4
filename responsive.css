@@ -1,0 +1,47 @@
+@media (max-width: 1024px)  {
+   .body-header .logo {
+      left: 30px;
+   }
+
+   .form-contact{
+      width: 955px;
+   }
+
+   .form-contact .form-element{
+      width: 440px;
+   }
+
+   .form-element.message,
+   .form-element.btn-contact{
+      width: 100%;
+   }
+}
+
+@media (max-width: 640px) {
+   .body-header .logo {
+      left: 30px;
+   }
+
+   .body-header .body-title {
+      margin: 70px 14px 20px;
+      font-size: 3rem;
+   }
+
+   .body-header p {
+      font-size: 1.25rem;
+      margin-inline: 100px;
+   }
+
+   .form-contact {
+      width: 600px;
+      height: 810px;
+   }
+
+   .form-contact label{
+      width: 100%;
+   }
+   
+   .form-contact .form-element{
+      width: 100%;
+   }
+}
